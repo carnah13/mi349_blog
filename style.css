@@ -1,0 +1,43 @@
+html{
+    background: #CCFFC9;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 35px;
+    padding: 40px;
+    color: green;
+    border-top: 20px solid green;
+    background: white;
+}
+
+h1{
+    font-size: 5em;
+    margin: 0;
+}
+
+p{
+    line-height: 1.4em;
+}
+
+h2{
+    font-size: 4em;
+}
+address{
+    font-size: 3em;
+}
+#blog{
+    border-top: 1px dotted #ccc;
+}
+
+.author{
+    text-decoration: underline overline;
+}
+
+.datetime{
+    text-decoration: underline;
+}
+
+.blog-post{
+    border-bottom: 1px dotted #ccc;
+}
