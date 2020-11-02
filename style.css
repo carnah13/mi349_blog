@@ -26,6 +26,15 @@ h2{
 address{
     font-size: 3em;
 }
+
+postSpace{
+    display: flex;
+}
+
+post{
+    padding: 10px;
+}
+
 #blog{
     border-top: 1px dotted #ccc;
 }
@@ -38,6 +47,18 @@ address{
     text-decoration: underline;
 }
 
+.navigation{
+    position: sticky;
+    top: 0;
+    left: 50px;
+    color: green;
+    padding: 5px;
+    background: #D6F5D9;
+}
+
 .blog-post{
     border-bottom: 1px dotted #ccc;
 }
+
+.beach-pic{
+    float: left;
