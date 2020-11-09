@@ -62,19 +62,18 @@ post{
 
 .beach-pic{
     float: left;
+}
 
-/* media queries */
 @media (max-width : 400px) {
-    postSpace {
-        background-color: lightblue;
-      }
-    h1{
-        background: green;
-        font-size: 2;
+    .section-heading{
+        font-size: 2em;
         margin: 0;
     }
     postSpace{
+        background-color: yellow;
         display: none;
-        position: relative;
+    }
+    body {
+        display: flex;
     }
 }
